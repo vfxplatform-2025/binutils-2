@@ -1,0 +1,97 @@
+# Build directories (excluded from version control)
+build/
+*/build/
+**/build/
+buildAll/
+*/buildAll/
+**/buildAll/
+build
+
+# Source directories (extracted source archives - excluded)
+source/
+*/source/
+**/source/
+source
+
+# Log files
+*.log
+**/*.log
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.o
+*.so
+*.a
+*.dylib
+*.dll
+*.exe
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Source archives (keep original sources for VFX packages)
+# *.tar.gz
+# *.tar.xz  
+# *.tgz
+# *.zip
+
+# Build artifacts
+*.pc
+stamp.*
+config.log
+config.status
+config.h
+libtool
+*.la
+*.libs/
+
+# Ninja build files
+ninja.log
+build.ninja
+rules.ninja
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backup files
+*.backup
+*.bak
+*_backup
+*_back
+
+# Test files
+test_*
+conftest*
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Specific to VFX build environment
+claude/claudeerro.txt
+glibc-conftest/
+gcc_stage3_test/
+.rez_build/
